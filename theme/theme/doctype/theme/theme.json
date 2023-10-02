@@ -1,0 +1,152 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:name1",
+ "creation": "2023-07-19 09:42:36.863974",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "disabled",
+  "general_section",
+  "__bg_color",
+  "__card_bg",
+  "__text_color",
+  "__text_light",
+  "__heading_color",
+  "column_break_9npd9",
+  "__primary",
+  "__fg_color",
+  "__fg_color_hover",
+  "__control_bg",
+  "navbar_section",
+  "__navbar_bg",
+  "sidebar_section",
+  "__sidebar_select_color",
+  "__text",
+  "section_break_055w8"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name",
+   "unique": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "disabled",
+   "fieldtype": "Check",
+   "label": "Disabled"
+  },
+  {
+   "fieldname": "section_break_055w8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "navbar_section",
+   "fieldtype": "Section Break",
+   "label": "Navbar"
+  },
+  {
+   "fieldname": "__navbar_bg",
+   "fieldtype": "Color",
+   "label": "Background-color"
+  },
+  {
+   "fieldname": "sidebar_section",
+   "fieldtype": "Section Break",
+   "label": "SideBar"
+  },
+  {
+   "fieldname": "__sidebar_select_color",
+   "fieldtype": "Color",
+   "label": "Selected Color"
+  },
+  {
+   "fieldname": "general_section",
+   "fieldtype": "Section Break",
+   "label": "General"
+  },
+  {
+   "fieldname": "__text_color",
+   "fieldtype": "Color",
+   "label": "Text Color"
+  },
+  {
+   "fieldname": "__primary",
+   "fieldtype": "Color",
+   "in_list_view": 1,
+   "label": "Primary Button",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_9npd9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "__text",
+   "fieldtype": "Color",
+   "label": "Text"
+  },
+  {
+   "fieldname": "__heading_color",
+   "fieldtype": "Color",
+   "label": "Heading Color"
+  },
+  {
+   "fieldname": "__text_light",
+   "fieldtype": "Color",
+   "label": "Text Light"
+  },
+  {
+   "fieldname": "__bg_color",
+   "fieldtype": "Color",
+   "label": "Background Color"
+  },
+  {
+   "fieldname": "__card_bg",
+   "fieldtype": "Color",
+   "label": "Card Background Color"
+  },
+  {
+   "fieldname": "__fg_color",
+   "fieldtype": "Color",
+   "label": "Secondary Button"
+  },
+  {
+   "fieldname": "__control_bg",
+   "fieldtype": "Color",
+   "label": "Field Color"
+  },
+  {
+   "fieldname": "__fg_color_hover",
+   "fieldtype": "Color",
+   "label": "Hover Secondary Button"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-19 11:30:05.967996",
+ "modified_by": "Administrator",
+ "module": "Theme",
+ "name": "Theme",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
